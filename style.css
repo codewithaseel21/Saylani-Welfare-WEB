@@ -1,5 +1,69 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+.navit
+
+.nav-btn-1 {
+    background-color: #0d6db7;
+    border: 1px solid #0d6db7;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+/* Hover underline effect for nav links */
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    /* Remove default underline */
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    /* Thickness of the underline */
+    background-color: #8dc63f;
+    /* Change this to your desired color */
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    /* Animation duration */
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+    /* Show underline on hover */
+}
+
+.nav-btn-1:hover {
+    transform: scale(1.12);
+}
+
+.nav-btn-2 {
+    background-color: #8dc63f;
+    border: 1px solid #8dc63f;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.nav-btn-2:hover {
+    transform: scale(1.12);
+}
+
+.nav-link-1:hover {
+    color: #858585;
+    text-decoration: underline #8dc63f 2px;
 }
