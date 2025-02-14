@@ -1,0 +1,1074 @@
+/* navbar started */
+.main-nav {
+    box-shadow: 0px 1px 8px var(--color-gray);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav {
+    gap: 3em;
+}
+
+.para-nav {
+    margin: 10px auto;
+    font-size: 14px;
+    color: var(--color-dark-gray);
+    cursor: pointer;
+}
+
+
+#icon-nav {
+    display: none;
+}
+
+/* navbar ended */
+
+
+/* --- container-1 started --- */
+.container-1 {
+    margin-top: 11rem;
+    gap: 20rem;
+}
+
+.parent-1 {
+    width: 45%;
+}
+
+.welcome {
+    font-size: 6rem;
+    line-height: 40px;
+}
+
+.span-1 {
+    font-size: 4rem;
+}
+
+.ngo {
+    font-size: 4rem;
+}
+
+.para-1 {
+    font-size: 1.5rem;
+}
+
+/* --- container-1 ended --- */
+
+/* container-2 stated */
+.container-2 {
+    padding: 3rem 0rem;
+    margin: 5rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+    background-color: var(--color-light-green);
+}
+
+.blood-bank {
+    padding: 5px 20px;
+    font-size: 3.8rem;
+    border-radius: 0.8rem;
+    color: var(--color-black);
+    background-color: var(--bg-white);
+}
+
+/* container-2 ended */
+
+/* container-3 started */
+
+.parent-3 {
+    border: 2px solid var(--color-white);
+    box-shadow: 2px 2px 12px var(--color-gray);
+    border-radius: 2rem;
+}
+
+.img-div-3 {
+    border-radius: 2rem;
+}
+
+/* container-3 ended */
+
+/* container-4 started */
+.children-4 {
+    width: 22.5rem;
+    height: 15rem;
+    border-radius: 6px;
+    background-color: var(--bg-light-green);
+    color: var(--color-black);
+}
+
+.doing {
+    font-size: 5rem;
+}
+
+.img-border-4 {
+    margin: 2.5rem 0rem;
+}
+
+/* container-4 ended */
+
+/* container-5 started */
+.parent-5-img-1 {
+    width: 480px;
+    height: 260px;
+    gap: 10rem;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1654923364/website-images/dynamic/c6fdf6af-51d5-4388-97ef-6cf10eb73aca.jpg);
+    background-repeat: no-repeat;
+}
+
+.parent-5-img-2 {
+    width: 480px;
+    height: 260px;
+    gap: 10rem;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1676274365/website-images/dynamic/b0abff1d-a3f9-49a7-9d58-273bbc735561.jpg);
+    background-repeat: no-repeat;
+}
+
+.parent-5-img-3 {
+    width: 480px;
+    height: 260px;
+    gap: 10rem;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1720264120/website-images/dynamic/c029347b-b528-4c27-8a1b-39366f5349d7.jpg);
+    background-repeat: no-repeat;
+}
+
+/* container-5 ended */
+
+
+/* container-6 started */
+.container-6 {
+    padding: 0rem 4rem;
+}
+
+.parent-6 {
+    width: 150rem;
+    height: 60rem;
+    border-radius: 9rem 0rem 0rem 0rem;
+    background-image: url(https://i.tribune.com.pk/media/images/2178912-image-1584559620/2178912-image-1584559620.jpg);
+    background-repeat: no-repeat;
+}
+
+.children6-div1 {
+    border-radius: 9rem 0rem 0rem 0rem;
+    width: 100%;
+    height: 100%;
+    border: 0.5px solid white;
+}
+
+.children6-div2 {
+    width: 50%;
+    height: 100%;
+    border: 0.5px solid white;
+}
+
+.children-6 {
+    border-radius: 9rem 0rem 0rem 0rem;
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid white;
+}
+
+.para-6 {
+    padding: 6rem;
+}
+
+.other {
+    font-size: 5rem;
+}
+
+.img-6 {
+    width: 9rem;
+    height: 8rem;
+    padding: 0rem 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-gray);
+}
+
+.img-6-two {
+    width: 12rem;
+    height: 8rem;
+    padding: 0rem 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-gray);
+}
+
+.img-6-three {
+    width: 13rem;
+    height: 8rem;
+    padding: 0rem 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-gray);
+}
+
+.img-6-four {
+    width: 11.5rem;
+    height: 8rem;
+    padding: 0rem 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-gray);
+}
+
+#img-6 {
+    margin: 2rem auto;
+}
+
+.head-6 {
+    font-size: 2.5rem;
+    color: var(--color-blue);
+}
+
+/* container-6 ended */
+
+
+/* container-7 started */
+.container-7 {
+    margin: 5rem 0rem;
+    padding: 2.5rem 4rem;
+    background-color: var(--color-blue);
+}
+
+.parent-7 {
+    width: 100%;
+    height: 40rem;
+}
+
+.img-7 {
+    background-color: var(--bg-white);
+    border-radius: 10rem;
+    width: 13rem;
+    height: 13rem;
+    padding: 2rem;
+    color: var(--color-black);
+}
+
+#img-7 {
+    margin: 1.5rem auto;
+}
+
+/* container-7 ended */
+
+
+/* container-8 started */
+.parent8-div1 {
+    line-height: 0.2rem;
+    margin: 4rem 0rem;
+}
+
+.children-8 {
+    width: 100%;
+    background-color: var(--bg-gray);
+    border-radius: 1rem;
+}
+
+.parent8-div2 {
+    padding: 0rem 3rem;
+}
+
+.img-8 {
+    width: 10rem;
+    margin-top: 5rem;
+    border-radius: 10rem;
+}
+
+.arshad {
+    font-size: 3.4rem;
+}
+
+.gerry {
+    font-size: 1.5rem;
+}
+
+.para-8 {
+    width: 94%;
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+
+.btn-8-div-8 {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    background-color: var(--bg-white);
+    color: var(--color-black);
+    border: 1px solid transparent;
+}
+
+.children8-div2 {
+    margin: 3rem 0rem;
+}
+
+/* container-8 ended */
+
+
+
+/* container-9 started */
+
+.parent-9 {
+    margin-bottom: 4rem;
+}
+
+.media {
+    margin: 5rem 0rem;
+}
+
+iframe {
+    border-radius: 0.8rem;
+}
+
+/* container-9 ended */
+
+
+/* container-10 started */
+.news {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.parent-10 {
+    gap: 3.5rem;
+}
+
+.child-10 {
+    height: 42rem;
+    width: 22vw;
+    border-radius: 1rem;
+    background-color: var(--bg-gray);
+}
+
+.img-10 {
+    border-radius: 1rem 1rem 0rem 0rem;
+    width: 22vw;
+}
+
+.head-10 {
+    font-size: 3rem;
+    width: 20vw;
+}
+
+/* container-10 ended */
+
+/* container-11 statred */
+.background-11 {
+    width: 100%;
+    height: 31rem
+}
+
+.parent-11 {
+    padding: 6rem;
+}
+
+#email {
+    margin-bottom: 1rem;
+}
+
+.head-11 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+#email {
+    width: 60vw;
+    font-size: 2rem;
+    padding: 1.2rem;
+    background-color: var(--bg-none);
+    color: var(--color-white);
+    border-radius: 1px;
+    border: 1px solid white;
+}
+
+/* container-11 ended */
+
+
+/* container-12 ended */
+.background-12 {
+    background-color: #424242;
+    width: 100%;
+    height: 68rem;
+}
+
+.parent-12 {
+    margin-top: 5rem;
+    padding-top: 6rem;
+    width: 90%;
+    gap: 15rem;
+}
+
+.img-12-black {
+    padding: 0.9rem 0rem;
+    background-color: var(--color-white);
+}
+
+.img-12-green {
+    padding: 0.1rem 0rem;
+    background-color: var(--color-green);
+}
+
+
+.head-12 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.para-12 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.para-12-div-2 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.para-12-div3 {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.img-12 {
+    margin-top: 3rem;
+}
+
+.img12-div2 {
+    margin: 8rem 0rem;
+}
+
+/* container-12 ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav responsive 1535px start */
+
+@media (max-width: 1535px) {
+    .container-1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6rem;
+    }
+
+    .parent-1 {
+        width: 50%;
+    }
+
+    .parent-img-1 {
+        width: 400px !important;
+    }
+
+    /* ---------- container-4 started -------- */
+    .doing {
+        text-align: center;
+    }
+
+    .parent-4 {
+        width: 85%;
+    }
+
+    /* ---------- container-4 ended -------- */
+
+
+    /* ---------- container-5 started -------- */
+    .container-5 {
+        padding: 0rem 10rem;
+    }
+
+    /* ---------- container-5 ended -------- */
+
+
+    /* ---------- container-9 sarted -------- */
+    iframe {
+        width: 27rem;
+    }
+
+    /* ---------- container-9 ended -------- */
+}
+
+/* nav responsive 1535px end */
+
+
+/* nav responsive 1280px start */
+@media (max-width: 1280px) {
+    #nav {
+        display: none;
+    }
+
+    #icon-nav {
+        display: block;
+        border: 1px solid var(--color-gray);
+        color: var(--color-dark-gray);
+        border-radius: 3px;
+        padding: 3px 14px;
+    }
+
+    /* ------- container-1 started----- */
+    .parent-1 {
+        line-height: 3rem;
+    }
+
+    #parent-img-1 {
+        width: 400px !important;
+    }
+
+    /* ---------- container-1 ended-------- */
+
+    /* ---------- container-2 started-------- */
+    .container-2 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    /* ---------- container-2 ended-------- */
+
+
+    /* ---------- container-4 started -------- */
+    .doing {
+        text-align: center;
+    }
+
+    .parent-4 {
+        flex-wrap: wrap;
+    }
+
+    /* ---------- container-4 ended -------- */
+
+
+    /* ---------- container-5 started -------- */
+    .container-5 {
+        flex-wrap: wrap;
+    }
+
+    /* ---------- container-5 ended -------- */
+
+
+    /* ---------- container-9 started -------- */
+    .parentmain-9 {
+        width: 90%;
+    }
+
+    /* ---------- container-9 ended -------- */
+
+
+    /* ---------- container-12 ended -------- */
+    .parent-12 {
+        /* flex-wrap: wrap; */
+        width: 95%;
+    }
+
+    /* ---------- container-12 ended -------- */
+}
+
+/* nav responsive 1280px end */
+
+
+/* nav responsive 1200px start */
+@media (max-width: 1200px) {
+
+    #nav {
+        display: none;
+    }
+
+    #icon-nav {
+        display: block;
+        border: 1px solid var(--color-gray);
+        color: var(--color-dark-gray);
+        border-radius: 3px;
+        padding: 3px 14px;
+    }
+
+    /* ----- container-1 started ---- */
+    .parent-1 {
+        line-height: 2rem;
+    }
+
+    #parent-img-1 {
+        width: 300px !important;
+    }
+
+    /* ----- container-1 ended ---- */
+
+
+    /* ------ container-6 started ------ */
+    .container-6 {
+        padding: 0rem 2rem;
+    }
+
+    .children-6 {
+        height: 30rem !important;
+    }
+
+    #para-6 {
+        font-size: 1.8rem !important;
+    }
+
+    /* ------ container-6 ended ----- */
+
+
+    /* ---------- container-9 started -------- */
+    .parent-9 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    iframe {
+        width: 40rem;
+    }
+
+    /* ---------- container-9 ended -------- */
+
+    /* ---------- container-10 started -------- */
+    .parent-10 {
+        margin: 0vw 20vw;
+    }
+
+    /* ---------- container-10 ended -------- */
+
+
+    /* ---------- container-12 ended -------- */
+    .container-12 {
+        height: 95rem;
+    }
+
+    .logo-12 {
+        width: 65rem;
+        margin: 0 auto;
+    }
+
+    .child-12 {
+        margin: 0 auto;
+        ;
+    }
+
+    .children-12 {
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    .img-12 {
+        width: 5rem;
+    }
+
+    .parent-12 {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        flex-wrap: wrap;
+        align-items: start;
+        width: 85%;
+        margin: 0 auto;
+        gap: 4rem;
+    }
+
+    .head-12 {
+        font-size: 6rem;
+    }
+
+    .para-12,
+    .para-12-div-2,
+    .para-12-div-3 {
+        font-size: 2rem;
+    }
+
+    /* ---------- container-12 ended -------- */
+}
+
+/* nav responsive 1200px end */
+
+
+/* nav responsive 950px started */
+/* ---------- container-1 -------- */
+@media (max-width: 950px) {
+    .container-1 {
+        padding: 0rem 3rem;
+    }
+
+    .parent-1 {
+        line-height: 1.5rem;
+    }
+
+    .welcome {
+        font-size: 4rem;
+    }
+
+    .span-1 {
+        font-size: 3rem;
+    }
+
+    .ngo {
+        font-size: 2.5rem;
+    }
+
+    .para-1 {
+        font-size: 1.1rem;
+    }
+
+    .parent-img-1 {
+        width: 150px !important;
+    }
+
+    /* ---------- container-1 ended -------- */
+
+
+    /* ------ container-6 started ------ */
+    .container-6 {
+        flex-wrap: wrap;
+    }
+
+    .parent-6 {
+        width: 70rem;
+    }
+
+    .projects-6 {
+        width: 70rem;
+    }
+
+    /* ------ container-6 ended ----- */
+
+    /* ------ container-7 started ----- */
+    .container-7 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0rem 3rem;
+        margin: 3rem 0rem;
+    }
+
+    .parent-7 {
+        width: 50%;
+    }
+
+    /* ------ container-7 ended ----- */
+
+    /* ---------- container-9 started -------- */
+    iframe {
+        width: 65rem;
+    }
+
+    /* ---------- container-9 ended -------- */
+
+    /* ---------- container-10 ended -------- */
+    .parent-10 {
+        flex-wrap: wrap;
+        width: 90%;
+
+    }
+
+    .child-10,
+    .img-10 {
+        width: 30rem;
+    }
+
+    .child-10 {
+        height: 45rem;
+    }
+
+    .head-10 {
+        width: 25rem;
+    }
+
+    /* ---------- container-10 ended -------- */
+
+    /* ---------- container-12 ended -------- */
+    .logo-12 {
+        width: 40vw;
+    }
+
+    .img-12 {
+        width: 4rem;
+    }
+
+    .head-12 {
+        font-size: 3rem;
+    }
+
+    .para-12,
+    .para-12-div-2,
+    .para-12-div-3 {
+        font-size: 1.2rem;
+    }
+
+    /* ---------- container-12 ended -------- */
+}
+
+/* nav responsive 950px ended */
+
+
+/* nav responsive 860px start */
+@media (max-width: 860px) {
+    #icon-nav {
+        padding: 1.5px 6px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    /* ---------- container-1 -------- */
+    .parent-1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: none;
+        line-height: 2.5rem;
+        width: 100%;
+    }
+
+    .img-div-1 {
+        display: none;
+    }
+
+    .welcome {
+        font-size: 4rem;
+        line-height: 40px;
+    }
+
+    .span-1 {
+        font-size: 3rem;
+    }
+
+    .ngo {
+        font-size: 3rem;
+    }
+
+    .para-1 {
+        font-size: 1rem;
+    }
+
+    /* ---------- container-1 ended -------- */
+
+
+    /* ------ container-6 started ------ */
+    .container-6 {
+        padding: 0rem 12rem;
+    }
+
+    #para-6 {
+        font-size: 1.6rem !important;
+    }
+
+    /* ------ container-6 ended ----- */
+
+    /* ------ container-10 started ----- */
+    .parent-10 {
+        gap: 2rem 2rem;
+    }
+
+    /* ------ container-10 ended ----- */
+
+
+    /* ---------- container-12 ended -------- */
+    .parent-12 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .container-12 {
+        height: 110rem;
+    }
+
+    /* ---------- container-12 ended -------- */
+}
+
+/* nav responsive 860px end */
+
+
+/* nav responsive 700px start */
+@media (max-width: 700px) {
+
+    /* ------ container-6 started ------ */
+    .container-6 {
+        padding: 0rem 3rem;
+    }
+
+    .parent-6 {
+        width: 500rem;
+        height: 40rem;
+    }
+
+    .children-6 {
+        height: 30vh !important;
+        border-radius: 0;
+    }
+
+    #para-6 {
+        font-size: 1.3rem !important;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    /* ------ container-6 ended ----- */
+
+
+    /* ---------- container-9 started -------- */
+    iframe {
+        width: 48rem;
+    }
+
+    /* ---------- container-9 ended -------- */
+}
+
+/* nav responsive 700px end */
+
+
+/* nav responsive 578px started */
+@media (max-width: 578px) {
+
+    .doing {
+        font-size: 4rem;
+    }
+
+    #border-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 18rem;
+    }
+}
+
+/* nav responsive 578px end */
+
+
+/* nav responsive 500px start */
+@media (max-width: 500px) {
+
+    /* ---------- container-1 -------- */
+    .parent-1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        overflow: none;
+        line-height: 2.5rem;
+        width: 100%;
+    }
+
+    .img-div-1 {
+        display: none;
+    }
+
+    .welcome {
+        font-size: 4rem;
+        line-height: 40px;
+    }
+
+    .span-1 {
+        font-size: 3rem;
+    }
+
+    .ngo {
+        font-size: 3rem;
+    }
+
+    .para-1 {
+        font-size: 1rem;
+    }
+
+    #btn-3 {
+        padding: 10px 10px;
+        width: 12rem;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+
+    /* ---------- container-1 ended -------- */
+
+
+    /* ---------- container-2 started -------- */
+    #number {
+        padding: 2.4rem 5rem !important;
+    }
+
+    .blood-bank {
+        width: 15rem;
+    }
+
+    /* ---------- container-2 ended -------- */
+
+    /* ------ container-7 started ----- */
+    .parent-7 {
+        width: 100%;
+        height: 28rem;
+    }
+
+    /* ------ container-7 ended ----- */
+
+    /* ------ container-8 started ----- */
+    .container-8 {
+        text-align: center;
+    }
+
+    /* ------ container-8 ended ----- */
+
+    /* ---------- container-9 started -------- */
+    iframe {
+        width: 30rem;
+    }
+
+    /* ---------- container-9 ended -------- */
+
+    /* ---------- container-11 started -------- */
+    .head-11 {
+        font-size: 3rem;
+    }
+
+    /* ---------- container-11 ended -------- */
+}
+
+/* nav responsive 500px end */

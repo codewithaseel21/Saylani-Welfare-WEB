@@ -1,0 +1,228 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 62.5%;
+    /* border: 1px solid black; */
+}
+
+body {
+    background-color: var(--bg-white);
+    color: var(--bg-black);
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(../Assets/fonts/poppins/Poppins-Regular.ttf);
+}
+
+/* bg-color */
+
+:root {
+
+    --bg-dark-gray: #7e7e7e;
+    --bg-gray: #0000001a;
+    --bg-dark: #1f1f1f;
+    --bg-light-dark: #424242;
+    --bg-black: #000000;
+    --bg-white: #ffffff;
+    --bg-blue: #0d6db7;
+    --bg-green: #8dc63f;
+    --bg-light-green: #f0fcda;
+    --bg-none: none;
+}
+
+.bg-dark {
+    background-color: var(--bg-dark);
+}
+
+.bg-light-dark {
+    background-color: var(--bg-light-dark);
+}
+
+.bg-dark-gray {
+    background-color: var(--bg-dark-gray);
+}
+
+.bg-gray {
+    background-color: var(--bg-gray);
+}
+
+.bg-none {
+    background-color: var(--bg-none);
+}
+
+.bg-blue {
+    background-color: var(--bg-blue);
+}
+
+.bg-black {
+    background-color: var(--bg-black);
+}
+
+.bg-white {
+    background-color: var(--bg-white);
+}
+
+.bg-green {
+    background-color: var(--bg-green);
+}
+
+.bg-light-green {
+    background-color: var(--bg-light-green);
+}
+
+/* color start*/
+:root {
+
+    --color-dark-gray: #7e7e7e;
+    --color-dark: #1f1f1f;
+    --color-light-dark: #424242;
+    --color-gray: #0000001a;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-blue: #0d6db7;
+    --color-green: #8dc63f;
+    --color-light-green: #f0fcda;
+    --color-none: none;
+}
+
+.color-dark-gray {
+    color: var(--color-dark-gray);
+}
+
+.color-light-dark {
+    color: var(--color-light-dark);
+}
+
+.color-dark {
+    color: var(--color-dark);
+}
+
+.color-gray {
+    color: var(--color-gray);
+}
+
+.color-green {
+    color: var(--color-green);
+}
+
+.color-light-green {
+    color: var(--color-light-green);
+}
+
+.color-none {
+    color: var(--color-none);
+}
+
+.color-black {
+    color: var(--color-black);
+}
+
+.color-blue {
+    color: var(--color-blue);
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+/* color end*/
+
+#btn-1 {
+    padding: 10px 16px;
+    width: 16rem;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    background-color: var(--bg-blue);
+    border: 1px solid transparent;
+}
+
+#btn-2 {
+    padding: 10px 16px;
+    width: 16rem;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    background-color: var(--bg-green);
+    border: 1px solid transparent;
+}
+
+.btn-3 {
+    padding: 15px 15px;
+    width: 20rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: var(--bg-none);
+    border: 1px solid var(--color-black);
+}
+
+/* general stated */
+.general {
+    font-size: 1.2rem;
+    padding: 1.8rem 2rem;
+    border-radius: 5px 0px 0px 5px;
+    color: var(--color-white);
+    background-color: var(--color-dark);
+}
+
+#number {
+    padding: 2.4rem 7rem;
+    border: 1px solid black;
+}
+
+.rs {
+    font-size: 1.5rem;
+    padding: 1.6rem 2rem;
+    border-radius: 0px 5px 5px 0px;
+    color: var(--color-white);
+    background-color: var(--color-dark);
+}
+
+/* general ended */
+
+.btn-4 {
+    padding: 14px 16px;
+    width: 16rem;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    background-color: var(--bg-green);
+    border: 1px solid transparent;
+}
+
+#btn-5 {
+    padding: 0.8rem;
+    width: 95%;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    background-color: var(--bg-green);
+    border: 1px solid transparent;
+}
+
+.btn-6 {
+    padding: 0.6rem;
+    width: 11rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: var(--bg-green);
+    color: var(--color-white);
+    border: 1px solid transparent;
+}
+
+.btn-7 {
+    padding: 0.5rem;
+    width: 6rem;
+    border-radius: 0.4rem;
+    border: 1px solid transparent;
+    background-color: var(--bg-white);
+}
+
+.btn-11 {
+    width: 60vw;
+    font-size: 2.5rem;
+    border: 1px solid transparent;
+}
