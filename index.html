@@ -4,62 +4,757 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>saylaniwelfare</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Bootstrap demo</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/utility.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <img class="nav-img" width="200"
-                src="https://saylaniwelfare.com/static/media/logo_saylaniwelfare.22bf709605809177256c.png" alt="">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <form class="d-flex" role="search">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="nav-icon navbar-nav me-auto mb-2 mb-lg-0 me-4 ">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">media</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Bank Details</a>
-                        </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Other Websites
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <button class="nav-btn-1 btn-outline-success mx-2 px-4 fs-6 py-2" type="submit">DONATE NOW</button>
-                    <button class="nav-btn-2 btn-outline-success px-4 fs-6 py-2" type="submit">BE A SPONSOR</button>
-            </form>
-        </div>
-        </div>
-    </nav>
+    <div class="overflow-hidden">
+        <!-- navbar started -->
+        <header>
+            <div class="main-nav z-1 bg-white ">
+                <div class="navbar d-flex flex-row justify-content-between f-wrap align-items-center mx-5 p-4"
+                    id="navbar">
+                    <div class="nav" id="logo">
+                        <img src="./Assets/Images/logo_saylaniwelfare.png" width="200px" class="logo" alt="img" />
+                    </div>
+
+                    <div class="nav color-gray gap-5" id="nav">
+                        <p class="para-nav pointer">About</p>
+                        <p class="para-nav">Services</p>
+                        <p class="para-nav">Media</p>
+                        <p class="para-nav">Contact Us</p>
+                        <p class="para-nav">Bank Details</p>
+                        <p class="para-nav">Other Websites</p>
+
+                        <div class="">
+
+                            <button class="btn-nav color-white" id="btn-1">
+                                DONATE NOW
+                            </button>
+                            <button class="btn-nav color-white" id="btn-2">
+                                BE A SPONSOR
+                            </button>
+
+                        </div>
+                    </div>
+
+                    <i class="fa-solid fa-bars fs-1 icon-nav" id="icon-nav"></i>
+
+                </div>
+            </div>
+        </header>
+        <!-- navbar ended -->
+
+        <main>
+            <!-- container-1 started -->
+            <div class="container-1 d-flex flex-row justify-content-center f-wrap align-items-center mx-5">
+                <div class="parent-1">
+                    <h2 class="welcome mb-5"><b>Welcome to the <b class="span-1 color-green">Saylani</b> Welfare Non
+                            Governmental
+                            Organization in Pakistan</b></h2>
+
+                    <h4 class="ngo mb-4"><b>The largest NGO offering free</b> <b class="color-blue">Health care and lot
+                            more.</b></h4>
+
+                    <p class="para-1 color-dark">Saylani Welfare is on the ground and already working with local
+                        communities to
+                        assess how best to support underprivileged families in more than 63 areas of day to day lives.
+                    </p>
+
+                    <button class="btn-3" id="btn-3">Explorer More <i
+                            class="fa-solid fa-arrow-right fs-4 m-2"></i></button>
+
+                </div>
+
+                <div class="img-div-1">
+                    <img src="https://saylaniwelfare.com/images/cloudinaryImages/slides.webp" id="parent-img-1"
+                        width="550px" alt="img">
+                </div>
+
+            </div>
+            <!-- container-1 ended -->
+
+            <!-- container-2 started -->
+            <div class="container-2 d-flex flex-row justify-content-around f-wrap align-items-center">
+
+                <div class="d-flex flex-row justify-content-center f-wrap align-items-center">
+                    <label for="number" class="general">General</label>
+                    <input type="number" id="number" placeholder="0">
+                    <label for="number" class="rs">Rs</label>
+                </div>
+
+                <div class="blood-bank">
+                    <p><b>Blood Bank / Thalassemia Treatment</b></p>
+                </div>
+
+                <div class="blood-bank">
+                    <p><b>Family Kifalat</b></p>
+                </div>
+
+                <div class="blood-bank">
+                    <p><b>Medical</b></p>
+                </div>
+
+                <div class="blood-bank">
+                    <p><b>Food</b></p>
+                </div>
+
+                <button class="btn-4 color-white">
+                    Quick Donate
+                </button>
+
+            </div>
+            <!-- container-2 ended -->
+
+            <!-- container-3 started -->
+            <div class="container-3 p-4">
+                <div class="parent-3">
+                    <img src="https://res.cloudinary.com/saylani-welfare/image/upload/v1721909453/website-images/dynamic/692fbdfa-20b6-4f0b-9c59-778cca7ba0b5.jpg"
+                        class="img-div-3" width="100%" height="560px" alt="img">
+                </div>
+            </div>
+            <!-- container-3 ended -->
+
+            <!-- container-4 started -->
+            <div class="container-4 d-flex flex-column justify-content-between f-wrap align-items-center">
+
+                <div class="parent-4 fs-5 my-5" id="doing">
+                    <h2 class="doing"><b>What We Are Doing</b></h2>
+                </div>
+
+                <div class="parent-4 my-5 d-flex flex-row justify-content-between f-wrap align-items-center text-center gap-5"
+                    id="border-4">
+
+                    <div class="children-4 ">
+
+                        <img src="https://saylaniwelfare.com/images/cloudinaryImages/services-image1.webp"
+                            class="img-border-4" width="55rem" alt="img">
+                        <div class="fs-3">Welfare</div>
+
+                    </div>
+
+                    <div class="children-4 ">
+
+                        <img src="https://saylaniwelfare.com/images/cloudinaryImages/services-image2.webp"
+                            class="img-border-4" width="50rem" alt="img">
+                        <div class="fs-3">Medical</div>
+
+                    </div>
+
+                    <div class="children-4 ">
+
+                        <img src="https://saylaniwelfare.com/images/cloudinaryImages/services-image3.webp"
+                            class="img-border-4" width="36rem" alt="img">
+                        <div class="fs-3">Online Sadqah</div>
+
+                    </div>
+
+                    <div class="children-4 ">
+
+                        <img src="https://saylaniwelfare.com/images/cloudinaryImages/services-image4.webp"
+                            class="img-border-4" width="56rem" alt="img">
+                        <div class="fs-3">Clean Water</div>
+
+                    </div>
+
+                    <div class="children-4 ">
+
+                        <img src="https://saylaniwelfare.com/images/cloudinaryImages/services-image5.webp"
+                            class="img-border-4" width="70em" alt="img">
+                        <div class="fs-3">Education</div>
+
+                    </div>
+
+                    <div class="children-4 ">
+
+                        <img src="https://saylaniwelfare.com/images/cloudinaryImages/services-image6.webp"
+                            class="img-border-4" width="70rem" alt="img">
+                        <div class="fs-3">Food</div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- container-4 ended -->
+
+            <!-- container-5 started -->
+            <div class="container-5 d-flex flex-row justify-content-center f-wrap align-items-center gap-4"
+                id="container-5">
+
+                <div class="parent-5-img-1 d-flex flex-column justify-content-center f-wrap align-items-center">
+
+                    <h1 class="color-white fs-1 text-center
+              my-5"><b>Sponsor IT Student</b></h1>
+
+                    <button class="color-white" id="btn-5">Donate</button>
+                </div>
+
+
+                <div class="parent-5-img-2 d-flex flex-column justify-content-center f-wrap align-items-center">
+
+                    <h1 class="color-white fs-1 text-center
+              my-5"><b>Daliy Food</b></h1>
+
+                    <button class="color-white" id="btn-5">Donate</button>
+                </div>
+
+
+                <div class="parent-5-img-3 d-flex flex-column justify-content-center f-wrap align-items-center">
+
+                    <h1 class="color-white fs-1 text-center
+              my-5"><b>Sponsor Vocational Students</b></h1>
+
+                    <button class="color-white" id="btn-5">Donate</button>
+                </div>
+
+
+            </div>
+            <!-- container-5 ended -->
+
+
+            <!-- container-6 started -->
+            <div class="container-6 gap-5 d-flex flex-row justify-content-center f-wrap align-items-center">
+
+                <div class="parent-6 d-flex flex-column justify-content-start f-wrap align-items-start" id="parent-6">
+
+                    <div class="children6-div1 flex-row justify-content-center f-wrap align-items-center">
+
+                        <div class="children-6 bg-green">
+                            <p class="para-6 fs-2 text-start color-white" id="para-6">Saylani serve almost 300,000
+                                underprivileged on
+                                daily basis</p>
+                        </div>
+
+                        <div></div>
+
+                    </div>
+
+
+                    <div class="children6-div2 div-6 d-flex flex-row justify-content-center f-wrap align-items-center">
+
+                        <div></div>
+                        <div></div>
+
+                    </div>
+
+                </div>
+
+                <div class="projects-6 d-flex flex-column justify-content-center f-wrap align-items-start gap-4"
+                    id="projects-6">
+
+                    <h1 class="other"><b>Other Projects</b></h1>
+
+                    <!-- --------------------------------------------- -->
+
+                    <div class="hapatitas d-flex flex-row justify-content-center f-wrap align-items-start gap-4">
+
+                        <div class="img-6 text-center">
+                            <img src="https://saylaniwelfare.com/images/cloudinaryImages/projects-image1.webp"
+                                id="img-6" width="40rem" alt="img">
+                        </div>
+
+                        <div class=" d-flex flex-column justify-content-between f-wrap align-items-start">
+
+                            <h1 class="head-6"><b>Hepatitis</b></h1>
+                            <p class="fs-4">Saylani Welfare has also set up a clinic for the best treatment of hepatitis
+                                patients
+                                where hepatitis patients are being treated</p>
+                        </div>
+
+                    </div>
+
+                    <!-- ----------------------------------------------------------- -->
+
+                    <div class="hapatitas d-flex flex-row justify-content-center f-wrap align-items-start gap-4">
+
+                        <div class="img-6-two text-center">
+                            <img src="https://saylaniwelfare.com/images/cloudinaryImages/projects-image2.webp"
+                                id="img-6" width="40rem" alt="img">
+                        </div>
+
+                        <div class=" d-flex flex-column justify-content-between f-wrap align-items-start">
+
+                            <h1 class="head-6"><b>Housing Society</b></h1>
+                            <p class="fs-4">Saylani Welfare is also providing its own home facility for the homeless
+                                people. So far,
+                                thousands of houses and flats have been constructed and given in easy installments</p>
+                        </div>
+
+                    </div>
+
+                    <!-- ------------------------------------------------------- -->
+
+                    <div class="hapatitas d-flex flex-row justify-content-center f-wrap align-items-start gap-4">
+
+                        <div class="img-6-three text-center">
+                            <img src="https://saylaniwelfare.com/images/cloudinaryImages/projects-image3.webp"
+                                id="img-6" width="40rem" alt="img">
+                        </div>
+
+                        <div class=" d-flex flex-column justify-content-between f-wrap align-items-start">
+
+                            <h1 class="head-6"><b>IT Literacy</b></h1>
+                            <p class="fs-4">We are committed to developing more than 1 million software developers,
+                                which will add
+                                about 100 billion annually to Pakistan's economy and help ease the debt burden on
+                                Pakistan</p>
+                        </div>
+
+                    </div>
+
+                    <!-- ------------------------------------------------------- -->
+
+                    <div class="hapatitas d-flex flex-row justify-content-center f-wrap align-items-start gap-4">
+
+                        <div class="img-6-four text-center">
+                            <img src="https://saylaniwelfare.com/images/cloudinaryImages/projects-image4.webp"
+                                id="img-6" width="40rem" alt="img">
+                        </div>
+
+                        <div class=" d-flex flex-column justify-content-between f-wrap align-items-start">
+
+                            <h1 class="head-6"><b>Tharparkar</b></h1>
+                            <p class="fs-4">In Tharparkar, Saylani has set up several schools and ro plants, dug wells
+                                and brought the
+                                children there to Karachi and taught them modern technology</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- container-6 ended -->
+
+
+            <!-- container-7 started -->
+            <div class="container-7 d-flex flex-row justify-content-around f-wrap align-items-center text-center">
+
+                <div class="parent-7 d-flex flex-column justify-content-center f-wrap align-items-center text-center">
+
+                    <div class="img-7">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGU7PpnhsTsNyyRVrITo_ojD0erTYlGUV5Ct2uS0IBKrE32UM3"
+                            id="img-7" width="70px" alt="img">
+                    </div>
+
+                    <div class="color-white my-3">
+                        <h2 class="fs-2 my-3">300000</h2>
+                        <h2 class="fs-3 my-3">Food</h2>
+                        <h2 class="fs-3 my-3">(Daliy)</h2>
+                    </div>
+
+                </div>
+                <!-- ------------------------------------- -->
+
+                <div class="parent-7 d-flex flex-column justify-content-center f-wrap align-items-center text-center">
+
+                    <div class="img-7">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlHvawjqWo1NRQFwXdc4Jp9gv1Pj5veXBZfFQrnfP_eqqVk6fx"
+                            id="img-7" width="60px" alt="img">
+                    </div>
+
+                    <div class="color-white my-3">
+                        <h2 class="fs-2 my-3">20000</h2>
+                        <h2 class="fs-3 my-3">Family Adoption</h2>
+                        <h2 class="fs-3 my-3">(Monthly)</h2>
+                    </div>
+
+                </div>
+                <!-- --------------------------------------- -->
+
+                <div class="parent-7 d-flex flex-column justify-content-center f-wrap align-items-center text-center">
+
+                    <div class="img-7">
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR4-ogyPeyK4eqxAd7iFDzcIh3koEhMXYW_c_TeVQeYOF9HbRVY"
+                            id="img-7" width="80px" alt="img">
+                    </div>
+
+                    <div class="color-white my-3">
+                        <h2 class="fs-2 my-3">25000</h2>
+                        <h2 class="fs-3 my-3">Education</h2>
+                        <h2 class="fs-3 my-3">(Monthly)</h2>
+                    </div>
+
+                </div>
+
+                <!-- ---------------------------------------- -->
+                <div class="parent-7 d-flex flex-column justify-content-center f-wrap align-items-center text-center">
+
+                    <div class="img-7">
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRDmmedXi7vCOMHlhS2JHK4nmW0DbzOW-2Zc5TYIO2VlgcN0U9f"
+                            id="img-7" width="50px" alt="img">
+                    </div>
+
+                    <div class="color-white my-3">
+                        <h2 class="fs-2 my-3">125000</h2>
+                        <h2 class="fs-3 my-3">Medical</h2>
+                        <h2 class="fs-3 my-3">(Monthly)</h2>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- container-7 ended -->
+
+
+            <!-- container-8 started -->
+            <div class="container-8 d-flex flex-column justify-content-evenly f-wrap align-items-center">
+
+                <div class="parent8-div1 text-center" id="head8-div1">
+                    <p class="color-green fs-3">Our Testimonials</p>
+                    <h2 class="other"><b>What They Say?</b></h2>
+                </div>
+
+                <div class="parent8-div2" id="head8-div2">
+
+                    <div class="children-8 d-flex flex-column justify-content-between f-wrap align-items-center"
+                        id="children-8">
+
+                        <img src="https://saylaniwelfare.com/images/cloudinaryImages/testimonials-image2.webp"
+                            class="img-8" alt="img">
+
+                        <h3 class="arshad color-blue"><b>Asif Ismail</b></h3>
+                        <p class="gerry">(C.O.O. & Director, Premier Cables Pvt. Ltd)</p>
+                        <p class="para-8 text-center">When we talk about serving humanity, no second thought occurs
+                            other than Saylani Welfare Trust. Saylani is doing a tremendous job in terms of everything
+                            they do for a troubled humanity. From offering food to the hungry to arranging jobs for
+                            jobless people, arranging marriages and dowry for orphaned girls, offering free medical
+                            facilities, and much more. We sincerely wish them success in their future endeavors and in
+                            raising their standards of serving mankind in a better and more professional way.</p>
+
+                        <div
+                            class="children8-div2 d-flex flex-row justify-content-center f-wrap align-items-center gap-3">
+
+                            <button class="btn-8-div-8">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                                </svg>
+                            </button>
+
+                            <button class="btn-8-div-8 bg-green">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-chevron-right color-white" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- container-8 ended -->
+
+
+            <!-- container-9 started -->
+            <div class="container-9 d-flex flex-column justify-content-center f-wrap align-items-center">
+
+                <div class="parentmain-9 d-flex flex-column justify-content-center f-wrap align-items-center"
+                    id="parentmain-9">
+
+                    <div>
+                        <h2 class="media other text-center"><b>Media Updates</b></h2>
+                    </div>
+
+                    <div class="parent-9 d-flex flex-row justify-content-center f-wrap align-items-center gap-5"
+                        id="parent9-div-1">
+
+                        <div class="iframe">
+                            <iframe width="350" height="250" src="https://www.youtube.com/embed/E1K1WfggY_E"
+                                title="Saylani Mega IT Exam – Karachi | Saylani Mass IT Training" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+                        <div>
+                            <iframe width="350" height="250" src="https://www.youtube.com/embed/u3W_29gdXGQ"
+                                title="Dubai Jobs 2023 | Meet the Selected Candidates for Dubai Jobs | #Saylani #Dubai #Jobs #2023"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+                        <div>
+                            <iframe width="350" height="250" src="https://www.youtube.com/embed/XSsR4qk7L3Q"
+                                title="5 Genius Ways to Get FREE IT Training in Turkey with Saylani Welfare"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+                        <div>
+                            <iframe width="350" height="250" src="https://www.youtube.com/embed/xDiwDfJDCes"
+                                title="The Success Story of SMIT | 13-Year Old Kid Earns 70K-80K | #Saylani #SMIT #2023"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+
+
+                    <div class="parent-9 d-flex flex-row justify-content-center f-wrap align-items-center gap-5"
+                        id="parent9-div-1">
+
+                        <div>
+                            <iframe width="350" height="250" src="https://www.youtube.com/embed/aNgs5T205Rg"
+                                title="Mobile on easy installment | Maulana Bashir Farooq Qadri" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+                        <div>
+                            <iframe width="350" height="250" src="https://www.youtube.com/embed/_VbHm0tF5SQ"
+                                title="Saylani Plantation Campaign #2023 | #Green Pakistan | Clean #Pakistan | #Saylany #Plant #Tree"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+                        <div>
+                            <iframe width="350" height="250" src="https://www.youtube.com/embed/o4b8KvNVles"
+                                title="Empower a Child’s Future with Your Zakat! | Saylani Welfare Trust"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+                        <div>
+                            <iframe width="350" height="250" src="https://www.youtube.com/embed/4C6yeJKF6bc"
+                                title="Shape Your Future in Tech with Saylani’s SMIT Program" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- container-9 ended -->
+
+
+            <!-- container-10 started -->
+            <div class="container-10 d-flex flex-column justify-content-between f-wrap align-items-center">
+
+                <div>
+                    <h2 class="other news"><b>News</b></h2>
+                </div>
+
+                <div class="parent-10 d-flex flex-row justify-content-around f-wrap align-items-center">
+
+                    <div class="child-10 d-flex flex-column justify-content-start f-wrap align-items-start">
+
+                        <div class="img-10">
+                            <img src="https://res.cloudinary.com/saylani-welfare/image/upload/v1732089903/website-images/dynamic/aa867d5a-1751-4afa-bd40-17d6cc510b97.jpg"
+                                class="img-10" alt="">
+                        </div>
+
+                        <div class="d-flex flex-column justify-content-evenly f-wrap align-items-start p-4">
+
+                            <button class="btn-6 mb-3">Mon Nov 18 2024</button>
+                            <h2 class="head-10 mb-4"><b>Saylani Delegation Explores Collaboration with TEV...</b></h2>
+                            <button class="btn-7"><i class="fa-solid fa-arrow-right fs-4 m-2"></i></button>
+
+                        </div>
+
+                    </div>
+                    <!-- ---------------------------------------------------------------------- -->
+
+                    <div class="child-10 d-flex flex-column justify-content-start f-wrap align-items-start">
+
+                        <div>
+                            <img src="https://res.cloudinary.com/saylani-welfare/image/upload/v1732090812/website-images/dynamic/bb3d1b28-7946-47ff-89f1-fa1258febf1a.png"
+                                class="img-10" alt="">
+                        </div>
+
+                        <div class="d-flex flex-column justify-content-evenly f-wrap align-items-start p-4">
+
+                            <button class="btn-6 mb-3">Sat Nov 16 2024</button>
+                            <h2 class="head-10 mb-4"><b>Saylani Mass I.T. Training has been honored with ...</b></h2>
+                            <button class="btn-7"><i class="fa-solid fa-arrow-right fs-4 m-2"></i></button>
+
+                        </div>
+
+                    </div>
+                    <!-- ---------------------------------------------------------------------- -->
+
+                    <div class="child-10 d-flex flex-column justify-content-start f-wrap align-items-start">
+
+                        <div>
+                            <img src="https://res.cloudinary.com/saylani-welfare/image/upload/v1726903971/website-images/dynamic/bdbb9743-aef5-43bf-ab69-3ff5370b3e71.jpg"
+                                class="img-10" alt="">
+                        </div>
+
+                        <div class="d-flex flex-column justify-content-evenly f-wrap align-items-start p-4">
+
+                            <button class="btn-6 mb-3">Wed Sep 18 2024</button>
+                            <h2 class="head-10 mb-4"><b>Beginning of a New Era in Tech, Saylani Welfare Za...</b></h2>
+                            <button class="btn-7"><i class="fa-solid fa-arrow-right fs-4 m-2"></i></button>
+
+                        </div>
+
+                    </div>
+                    <!-- ---------------------------------------------------------------------- -->
+
+                    <div class="child-10 d-flex flex-column justify-content-start f-wrap align-items-start">
+
+                        <div>
+                            <img src="https://res.cloudinary.com/saylani-welfare/image/upload/v1725003538/website-images/dynamic/507cbaaa-4f0f-4326-9408-ebd7f855209c.jpg"
+                                class="img-10" alt="">
+                        </div>
+
+                        <div class="d-flex flex-column justify-content-evenly f-wrap align-items-start p-4">
+
+                            <button class="btn-6 mb-3">wed Aug 28 2024</button>
+                            <h2 class="head-10 mb-4"><b>Saylani Delegation Explores Collaboration with TEV...</b></h2>
+                            <button class="btn-7"><i class="fa-solid fa-arrow-right fs-4 m-2"></i></button>
+
+                        </div>
+
+                    </div>
+                    <!-- ---------------------------------------------------------------------- -->
+
+                </div>
+
+            </div>
+            <!-- container-10 ended -->
+
+
+            <!-- container-11 started -->
+            <div>
+
+                <div class="p-5">
+                    <div class="background-11  bg-blue color-white">
+
+                        <div class="parent-11 d-flex flex-column justify-content-around f-wrap align-items-center">
+
+                            <h2 class="head-11"><b>Saylani Guide</b></h2>
+
+                            <input type="text" name="email" class="emil color-white" id="email"
+                                placeholder="Enter E-Mail Adress" required>
+
+                            <button class="btn-11 color-black"><b>Subscribe</b></button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- container-11 ended -->
+
+
+            <!-- container-12 started -->
+            <div class="container-12 background-12">
+
+                <div class="parent-12 d-flex flex-row justify-content-center f-wrap align-items-start">
+
+                    <div class="children-12 d-flex flex-column justify-content-center f-wrap align-items-start">
+
+                        <div class="logo-12">
+                            <img src="https://saylaniwelfare.com/static/media/logo_saylaniwelfare.22bf709605809177256c.png"
+                                class="logo-12" width="350rem" alt="logo">
+                        </div>
+
+                        <div
+                            class="child-12 d-flex flex-row justify-content-between f-wrap align-items-center px-4 gap-3">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA6CAYAAADhu0ooAAAABHNCSVQICAgIfAhkiAAAAktJREFUaEPtmL9PU1EUx7+tDwjUVgoFK6aL3RxhMtGNEP8AC0M3BkPSSOKg0bAATVwloAykmwhhYMZoQkIpJgYwDo6EpQ2FVrHWUqKvVW9d+5p3H7n3/fLcsfnmvfv5fu+557x6Yg+zf/AfLA+BuixlStRlgYISpUQd6gAdXYcG13LblKjMRG9E2nB70IdIWMHVXgWhoALlElCrA8dfaihX6nj/6RxvdyrCtmFqou1tHkyMBRlkly7A1m4VL1dPdXW8AtNAG4klJ/sRjbRz7c2xoPdjQQzf8nFBNkTpvSperDgs0XBIwdzTMLwebk6k9xnoa4eBjt4N4N5IgJ+ykagTQacTfbgZ7WgJuvnhDG8yFRwVavilyvkfwJTLaGHqGmsj7DbSWJmPVcwvizuirdw0BXRpZgDdfq/mHmYXi/h88NPQsb6I2BTQ1OwAApe1QSefHf8bEmQvc0CTDNSnDZpI5lH8xkYiyYtARRqcclui1/sVXPE3366PxkPwdWpPC3OvvqJU/t3ka+5EZcN98+8XDUDo0X0Q78GdIf2BnWezom9j24JOzORx+l3cJWVLUJV1m/jjHE/w3Bpbgh5mVTx5fsINwSO0Jeg2G+gXBH65NIywJejaRhnr78o8QXFrhIKKai9HBRWlH+Jai/BEW9nruoGBQN02AlKilChA36PcHZJPKLSPUo1SjVKN8hWeARXVqAGzdKU06zKLqI/qnhNjAlNq1NiW5KgJVI6v1j2VErXOezlvpkTl+GrdUylR67yX82ZKVI6v1j31L/Sti1p5bJxrAAAAAElFTkSuQmCC"
+                                class="img-12" width="40rem" alt="">
+
+                            <img src="https://saylaniwelfare.com/static/media/Twitter-Log%D0%BE.97ae68df303b17d47294.png"
+                                class="img-12 img-12-black" width="40rem" alt="">
+
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAA6CAYAAAAOeSEWAAAABHNCSVQICAgIfAhkiAAAAnhJREFUaEPtWDFMU1EUvcVCLbXWYL4DwYQFBxycJLiVjq1j/wyMbhCjgwt1cZAYnUycCGGko3UENgYmBhh0aVLCQFONNlBqFX23SZPG/JB/7//vPfm9N/nbe/e+c8799973YrUn7h8YEIsJ2IgqLcpGVFgQZUXZCDAgaRwBET0hiLKibAQYkDSOgIhSoCSNg6Rx/LYD18acIC66e39/rcOvRj2wn34HgZQdSqYgXSjC9Xv3YXhiMtSD9TvrHFXh/PMBNCtluGidsuOwwaKCd168BgRsyhDoyavnbMXZYJ2lFUgoRU1ba38PGh9WWWFZYFHN8TdrrIBhbDp+ushKZxZYVBSVtWX1dy+hrf5hqrHApnMFyBTnqbFCW/9t4z2c7u6Q/bHA3iy4gB/FmtufIDWbVQVtlLLNc+2PyibgRzVjYDH1OrUq3MjlyUT9C8oo2Iy7AOm5PInY/v8M21amuADJBw9JPnqLjYJ1lkuQmJomHdSrqGChw9+B6qv95RDqb0uk+LiYlcZhge2dNvUoqyYxF+I+x8wrDRbTGdMa09uPXUmwOE/fUi2MOokZBRtGgUrnXcD05ZjRAsXps/2tB9tPkAvEfw+2uVVRrWbG9395meJGwdoeF7+X1wHJoxqr9QzURWCgrniYPpzBgpp2Xuu5bYc9QeFG7JEIOIxbjF8SLlpn6lnmmflnGTxg98HtsQsjCjh1vvULENehmj/Vo1vz4ybrhaIXi1WgLjsoEjB8d5KCxXMtXgeDvCR6OQ0dbGCUGh0IWI3kWnUtylqlX2NwUVYjuVZdi7JW6dcYXJTVSK5V16KsVfo1BhdlNZJr1bUoa5V+jcH/AvcscIo5+j/XAAAAAElFTkSuQmCC"
+                                class="img-12" width="40rem" alt="">
+
+                            <img src="https://saylaniwelfare.com/static/media/whatsapp.e1279ea040ecac4ee2e1fabc73dbfbf5.svg"
+                                class="img-12 img-12-green" width="40rem" alt="">
+                        </div>
+
+                    </div>
+
+                    <div
+                        class="children-12-div-2 d-flex flex-column justify-content-between f-wrap align-items-start color-white">
+
+                        <h2 class="head-12"><b>About</b></h2>
+                        <p class="para-12">Introduction</p>
+                        <p class="para-12">Chairman Message</p>
+                        <p class="para-12">Annual Report</p>
+                        <p class="para-12">Bank Details</p>
+
+                    </div>
+
+                    <div
+                        class="children-12-div-2 d-flex flex-column justify-content-between f-wrap align-items-start color-white">
+
+                        <h2 class="head-12"><b>Explore</b></h2>
+                        <p class="para-12-div-2">News</p>
+                        <p class="para-12-div-2">Media</p>
+                        <p class="para-12-div-2">Contact</p>
+                        <p class="para-12-div-2">Donations</p>
+
+                    </div>
+
+                    <div
+                        class="children-12-div-2 d-flex flex-column justify-content-between f-wrap align-items-start color-white">
+
+                        <h2 class="head-12"><b>Contact</b></h2>
+                        <p class="para-12-div3">A-25, Bahadurabad Chowrangi Karachi, Pakistan</p>
+                        <p class="para-12-div3">UAN: 111-729-526 (+0092-213)4130786-90</p>
+                        <p class="para-12-div3">CELL: 92-311-1729526</p>
+                        <p class="para-12-div3">USA NO +1(716)941 7792</p>
+                        <p class="para-12-div3">UK NO (+44)115 970 6256</p>
+                        <p class="para-12-div3">For Istikhara Contact</p>
+
+                    </div>
+
+
+                </div>
+                <div>
+                    <hr class="border border-dark border-1 opacity-50" />
+                </div>
+
+                <div class="img12-div2 text-center">
+                    <img width="200vw"
+                        src="https://res.cloudinary.com/saylani-welfare/image/upload/v1662787571/website-images/finance/acca-logo/acca-approved-trainee-development-gold-logo-dark_dbuqdu.png"
+                        alt="">
+                </div>
+
+                <hr class="border border-dark border-1 opacity-50" />
+
+                <div class="color-white fs-1 text-center m-4">
+                    <p class="my-2">Develop by Muhammad Aseel Ahmed</p>
+                </div>
+
+                <hr class="border border-dark border-1 opacity-50" />
+
+                <div>
+                    <p class="my-2 color-white fs-4 text-center">Copyright 2025 by saylani Welfare Int Trust</p>
+                </div>
+
+            </div>
+            <!-- container-12 ended -->
+
+        </main>
+
+    </div>
+    <script src="https://kit.fontawesome.com/1de706ad7b.js" crossorigin="anonymous"></script>
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
